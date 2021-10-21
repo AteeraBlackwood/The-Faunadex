@@ -58,9 +58,10 @@ body {
   grid-row-gap: 30px;
   grid-column-gap: 30px;
   vertical-align: middle;
+  padding: 30px;
 }
 
-.FrontPagePokemonGrid > .grid-item > img {
+.FrontPagePokemonGrid > .grid-item  img {
   width: 100%;
 }
 
@@ -163,4 +164,9 @@ form.example::after {
   content: "";
   clear: both;
   display: table;
+}
+
+.Media {
+  grid-column-end: span 2;
+
 }
