@@ -43,6 +43,9 @@ body {
   margin: 0;
   padding: 0;
 }
+.ThemeSong {
+  align-content: center;
+}
 
 .Cards{
   display: grid;
