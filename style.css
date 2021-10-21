@@ -18,6 +18,12 @@
   object-position: left;
 }
 
+.ThemeSong > audio{
+  object-fit: cover;
+  object-position: center;
+  
+}
+
 .header{
   position: absolute;
   top: 40%;
@@ -43,9 +49,7 @@ body {
   margin: 0;
   padding: 0;
 }
-.ThemeSong {
-  align-content: center;
-}
+
 
 .Cards{
   display: grid;
